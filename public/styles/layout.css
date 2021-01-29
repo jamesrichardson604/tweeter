@@ -18,8 +18,26 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ main {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #f4f1ec;
+  flex-direction: column;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+  #desktop-switch {
+    display: flex;
+    flex-direction: row;
+  }
+}

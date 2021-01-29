@@ -1,0 +1,39 @@
+#avatar-header {
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #bf7900;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  margin-top: 120px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.username span {
+  font-weight: lighter; 
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+  #avatar-header {
+    margin: 180px 0px 0px 50px;
+    justify-content: center;
+    width: 35vw;
+  }
+
+  .username {
+    justify-content: center;
+  }
+}
+
